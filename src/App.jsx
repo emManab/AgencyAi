@@ -4,7 +4,11 @@ import './index.css'
 import Hero from './components/Hero'
 import TrustedBy from './components/TrustedBy'
 import Services from './components/Services'
-import ourwork from './components/ourwork'
+import OurWork from './components/ourwork'
+import Team from './components/team'
+import Contactus from './components/Contactus'
+import {Toaster} from 'react-hot-toast'
+import Footer from './components/footer'
 
 function App() {
   
@@ -12,11 +16,15 @@ function App() {
 
   return (
     <div className='dark:bg-black relative'>
+      <Toaster/>
       <Navbar theme = {theme} setTheme={setTheme}/>
       <Hero/>
       <TrustedBy/>
       <Services/>
-      <ourwork/>
+      <OurWork/>
+      <Team/>
+      <Contactus/>
+      <Footer/>
     </div>
   )
 }
