@@ -4,6 +4,7 @@ import './index.css'
 import Hero from './components/Hero'
 import TrustedBy from './components/TrustedBy'
 import Services from './components/Services'
+import ourwork from './components/ourwork'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
       <Hero/>
       <TrustedBy/>
       <Services/>
+      <ourwork/>
     </div>
   )
 }
